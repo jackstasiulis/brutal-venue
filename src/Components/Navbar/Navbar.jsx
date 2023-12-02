@@ -11,7 +11,7 @@ function Navbar () {
 
     return(
         <nav className='navbar'>
-            <div className='navbar__logo'>Your Logo</div>
+            <div className='navbar__logo'>LOGO</div>
 
             <div className={`navbar__menu ${menuOpen ? 'open' : ''}`}>
                 <div className='navbar__item'>Item 1</div>

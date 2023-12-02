@@ -8,9 +8,20 @@
     align-items: center;
     position: relative;
         &__image{
+            transition: min-width 0.1s;
             min-width: 80vw;
             max-width: 100vw;
+            @include laptop{
+                min-width: 70vw;
+                max-width: 10vw;
+            }
+            @include laptopL{
+                min-width: 60vw;
+                // max-width: 10vw;
+            }
+
             &--container{
+
             }
         }
         &__tagline{

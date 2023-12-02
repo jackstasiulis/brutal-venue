@@ -6,7 +6,7 @@ function About () {
     return(
         <section className='about'>
             <div className='about__image--container'>
-                <img className='about__image' src="https://placehold.co/500x500" alt="" />
+                <img className='about__image' src="https://placehold.co/500x500" alt="About us image" />
             </div>
 
             <div className='about__tagline--container'>
