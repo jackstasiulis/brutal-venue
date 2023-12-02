@@ -2,6 +2,7 @@ import './Navbar.scss'
 import React, { useState } from 'react';
 
 function Navbar () {
+    // create our state var for hamburger menu
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
