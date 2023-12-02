@@ -2,5 +2,14 @@
 @use '../../Styles/mixins' as *;
 
 .events{
-    margin-top: 10rem;
+    margin-top: 5rem;
+    &__title{
+        font-size: 4rem;
+        margin-bottom: 5rem;
+        &--container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
 }

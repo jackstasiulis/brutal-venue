@@ -6,9 +6,17 @@ function Events () {
 
     return(
         <section className='events'>
-            <h1>events</h1>
-            <EventCard />
-            <EventCard />
+
+            <div className='events__title--container'>
+                <h1 className='events__title'>EVENTS</h1>
+            </div>
+
+            <div>
+                <EventCard />
+                <EventCard />
+                <EventCard />
+            </div>
+
 
         </section>
     )

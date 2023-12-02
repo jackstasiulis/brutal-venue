@@ -40,7 +40,7 @@
         }
     }
     &__text{
-        transition: font-size 0.1s, margin-left 0.1s;
+        transition: font-size 0.1s, margin 0.1s;
         @include tablet{
             font-size: 1.2rem;
         }
