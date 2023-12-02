@@ -1,2 +1,37 @@
 @use '../../Styles/variables' as *;
 @use '../../Styles/mixins' as *;
+
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+        &__image{
+            min-width: 80vw;
+            max-width: 100vw;
+            &--container{
+            }
+        }
+        &__tagline{
+            font-size: 4rem;
+            margin-bottom: 15vh;
+            margin-right: 5vw;
+
+            &--container{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                display: flex;
+                justify-content: right;
+                align-items: end;
+            }
+        }
+        &__text{
+            &--container{
+                // position: absolute;
+                width: 30rem;
+                font-size: 1.1rem;
+            }
+        }
+}
