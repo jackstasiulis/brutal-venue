@@ -2,7 +2,8 @@
 @use '../../Styles/mixins' as *;
 
 .event-card{
-    margin-bottom: 18vh;
+
+    margin-bottom: 30vh;
     &__content{
         width: 100%;
         display: flex;
@@ -33,6 +34,9 @@
             display: flex;
             justify-content: right;
             align-items: center;
+            z-index: 10;
+
+
 
                 @include tablet{
                 justify-content: center;
