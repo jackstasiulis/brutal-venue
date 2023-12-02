@@ -1,0 +1,44 @@
+@use 'variables' as *;
+
+
+@mixin mobileS {
+  @media screen and (min-width: $mobileS-breakpoint) {
+    @content;
+  }
+}
+
+@mixin mobileM {
+  @media screen and (min-width: $mobileM-breakpoint) {
+    @content;
+  }
+}
+
+@mixin mobileL {
+  @media screen and (min-width: $mobileL-breakpoint) {
+    @content;
+  }
+}
+
+@mixin tablet {
+    @media screen and (min-width: $tablet-breakpoint) {
+      @content;
+    }
+  }
+
+  @mixin laptop {
+    @media screen and (min-width: $desktop-breakpoint) {
+      @content;
+    }
+  }
+
+  @mixin laptopL {
+    @media screen and (min-width: $desktopL-breakpoint) {
+      @content;
+    }
+  }
+
+  @mixin desktopXL {
+    @media screen and (min-width: $desktopL-breakpoint) {
+      @content;
+    }
+  }
