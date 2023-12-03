@@ -5,6 +5,7 @@ function About () {
 
     return(
         <section className='about'>
+            <span className='about__scroll-point' id='about'></span>
             <div className='about__image--container'>
                 <img className='about__image' src="https://placehold.co/500x500" alt="About us image" />
             </div>

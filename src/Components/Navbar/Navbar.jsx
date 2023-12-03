@@ -21,7 +21,11 @@ function Navbar () {
                     <div className='navbar__item'>EVENTS</div>
                 </a>
 
-                <div className='navbar__item'>ABOUT</div>
+                <a href="#about">
+                    <div className='navbar__item'>ABOUT</div>
+                </a>
+
+
                 {/* <div className='navbar__item'>Item 3</div> */}
             </div>
 
