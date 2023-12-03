@@ -12,7 +12,9 @@ function Navbar () {
     return(
         <nav className='navbar'>
             <a href="#top">
-                <div className='navbar__logo'>LOGO</div>
+                <div className='navbar__logo'>
+                    <h3 className='navbar__logo--text'>LOGO</h3>
+                </div>
             </a>
             
 

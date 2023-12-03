@@ -11,12 +11,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: black;
+    mix-blend-mode: difference;
     padding: .625rem;
-    color: #fff;
+    // color: #fff;
         &__logo{
             font-size: 1.5rem;
             cursor: pointer;
+                &--text{
+                    color: white;
+                    mix-blend-mode: difference;
+                }
         }
         &__menu{
             display: none;
@@ -24,7 +29,7 @@
             top: 3.125rem;
             left: 0;
             width: 100%;
-            background-color: #333;
+            // background-color: #333;
             z-index: 100;
 
             @include tablet{
@@ -52,8 +57,15 @@
   .hamburger-menu {
     font-size: 1.5rem;
     cursor: pointer;
+    color: white;
+    mix-blend-mode: difference;
   
     @include tablet {
         display: none;
     }
   }  
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
