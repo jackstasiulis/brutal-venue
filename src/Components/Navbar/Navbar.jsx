@@ -11,12 +11,18 @@ function Navbar () {
 
     return(
         <nav className='navbar'>
-            <div className='navbar__logo'>LOGO</div>
+            <a href="#top">
+                <div className='navbar__logo'>LOGO</div>
+            </a>
+            
 
             <div className={`navbar__menu ${menuOpen ? 'open' : ''}`}>
-                <div className='navbar__item'>Item 1</div>
-                <div className='navbar__item'>Item 2</div>
-                <div className='navbar__item'>Item 3</div>
+                <a href="#events">
+                    <div className='navbar__item'>EVENTS</div>
+                </a>
+
+                <div className='navbar__item'>ABOUT</div>
+                {/* <div className='navbar__item'>Item 3</div> */}
             </div>
 
             <div className='hamburger-menu' onClick={toggleMenu}>

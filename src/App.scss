@@ -8,7 +8,6 @@
   // ::selection{
   //     color: red;
   // }
-
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -20,6 +19,8 @@
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
+html{
+  scroll-behavior: smooth;
+}

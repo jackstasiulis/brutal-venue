@@ -43,7 +43,7 @@ function EventCard () {
                 </div>
 
                 {/* HERE is our framer motion.div that takes our mouse position to move the poster */}
-                <motion.div onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} style={{rotateX, rotateY, transformStyle: 'preserve-3d',}} className='event-card__poster--container'>
+                <motion.div className='event-card__poster--container' onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} style={{rotateX, rotateY, transformStyle: 'preserve-3d',}}>
                     <img className='event-card__poster' src={"https://placehold.co/200x350"} alt="Event poster" />
                 </motion.div>
 
