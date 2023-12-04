@@ -14,10 +14,13 @@
     }
     &__text{
         font-size: 14vw;
+        transition: font-family 0.5s ease-in-out ;
+        // font-family: RedactionThirtyFive;
         &--container{
             position: absolute;
             right: 0rem;
             top: 6vh;
+            
         }
     }
 }
