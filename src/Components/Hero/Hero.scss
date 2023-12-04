@@ -21,6 +21,9 @@
             right: 0rem;
             top: 6vh;
             
+            &:hover{
+                cursor: ew-resize;
+            }
         }
     }
 }

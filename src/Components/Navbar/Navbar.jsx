@@ -13,7 +13,7 @@ function Navbar () {
         <nav className='navbar'>
             <a href="#top">
                 <div className='navbar__logo'>
-                    <h3 className='navbar__logo--text'>LOGO</h3>
+                    <h3 className='navbar__logo--text'>LOREM</h3>
                 </div>
             </a>
             

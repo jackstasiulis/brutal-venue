@@ -44,7 +44,7 @@ function Hero () {
                 </article>
                 
                 <article id='heroText' className='hero__text--container' onMouseMove={handleMouseMove}>
-                    <h1 className='hero__text' style={{ fontFamily: fontOptions[fontIndex] }}>placeholder</h1>
+                    <h1 className='hero__text' style={{ fontFamily: fontOptions[fontIndex] }}>here.all.week.</h1>
                 </article>
             </div>
         </body>

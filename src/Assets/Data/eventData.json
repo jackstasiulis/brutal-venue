@@ -1,0 +1,26 @@
+[{
+    "id":"1",
+    "image":"XXXXX",
+    "poster":"XXXXX",
+    "title":"event1",
+    "eventText1":"AAAAA",
+    "eventText2":"tues. jan. 9. 2024.",
+    "eventText3":"AAAAA"},
+
+    {"id":"2",
+    "image":"XXXXX",
+    "poster":"XXXXX",
+    "title":"event2",
+    "eventText1":"AAAAA",
+    "eventText2":"AAAAA",
+    "eventText3":"AAAAA"},
+    
+    {"id":"3",
+    "image":"XXXXX",
+    "poster":"XXXXX",
+    "title":"event3",
+    "eventText1":"AAAAA",
+    "eventText2":"AAAAA",
+    "eventText3":"AAAAA"}
+
+]

@@ -1,8 +1,7 @@
 import './EventCard.scss'
 import { useMotionValue, motion, useSpring, useTransform } from 'framer-motion';
-import skellyPic from '../../Assets/skelly.webp'
 
-function EventCard () {
+function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) {
 
     const x = useMotionValue(0)
     const y = useMotionValue(0)
@@ -48,10 +47,10 @@ function EventCard () {
                 </motion.div>
 
                 <div className='event-card__text--container'>
-                    <p className='event-card__text'>text for description</p>
-                    <p className='event-card__text'>text for description</p>
-                    <p className='event-card__text'>text for description</p>
-                    <p className='event-card__text'>text for description</p>
+                    <p className='event-card__text'>{title}</p>
+                    <p className='event-card__text'>{eventText1}</p>
+                    <p className='event-card__text'>{eventText2}</p>
+                    <p className='event-card__text'>{eventText3}</p>
                 </div>
             </div>
         </article>
