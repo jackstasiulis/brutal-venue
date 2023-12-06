@@ -2,25 +2,25 @@
     "id":"1",
     "image":"XXXXX",
     "poster":"XXXXX",
-    "title":"event1",
-    "eventText1":"AAAAA",
+    "title":"ALBUM RELEASE",
+    "eventText1":"tickets online / door",
     "eventText2":"tues. jan. 9. 2024.",
-    "eventText3":"AAAAA"},
+    "eventText3":"doors @ 7"},
 
     {"id":"2",
     "image":"XXXXX",
     "poster":"XXXXX",
-    "title":"event2",
-    "eventText1":"AAAAA",
-    "eventText2":"AAAAA",
-    "eventText3":"AAAAA"},
+    "title":"FASHION SHOW",
+    "eventText1":"tickets online",
+    "eventText2":"fri. jan. 12. 2024.",
+    "eventText3":"starts  6p.m."},
     
     {"id":"3",
     "image":"XXXXX",
     "poster":"XXXXX",
-    "title":"event3",
-    "eventText1":"AAAAA",
-    "eventText2":"AAAAA",
-    "eventText3":"AAAAA"}
+    "title":"ART SALE",
+    "eventText1":"ticket not required",
+    "eventText2":"sun. jan. 10. 2024.",
+    "eventText3":"running 11 to 7"}
 
 ]
