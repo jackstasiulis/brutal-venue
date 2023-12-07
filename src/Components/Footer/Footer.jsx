@@ -12,12 +12,12 @@ function Footer () {
             <div className='footer__options'>
                 <article className='footer__options--left'>
                     <p className='footer__option'>contact</p>
-                    <p className='footer__option'>WORK</p>
+                    <p className='footer__option'>work</p>
                 </article>
 
                 <article className='footer__options--right'>
-                    <p className='footer__option'>FIND</p>
-                    <p className='footer__option'>ABOUT</p>
+                    <p className='footer__option'>find</p>
+                    <p className='footer__option'>about</p>
                 </article>
             </div>
 

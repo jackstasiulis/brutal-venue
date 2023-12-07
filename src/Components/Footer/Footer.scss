@@ -25,7 +25,7 @@
         transition: text-transform ease 0.2s;
         width: 5rem;
         &:hover{
-            text-transform: lowercase;
+            // text-transform: lowercase;
             color: blue;
             text-decoration: underline;
         }
