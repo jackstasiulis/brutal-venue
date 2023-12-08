@@ -4,6 +4,7 @@ import Events from './Components/Events/Events';
 import Footer from './Components/Footer/Footer';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar'
+import ScrollText from './Components/ScrollText/ScrollText';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
       <Navbar />
       <Hero />
+      <ScrollText />
       <Events />
       <About />
       <Footer />
