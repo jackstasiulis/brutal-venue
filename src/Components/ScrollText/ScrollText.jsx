@@ -15,7 +15,7 @@ function ScrollText () {
     
       controls.start({
         x: `-${repetitions * 100}%`,
-        transition: { ease: 'linear', duration: repetitions * 1, repeat: Infinity },
+        transition: { ease: 'linear', duration: repetitions * 10, repeat: Infinity },
       });
     }, [controls, text]);
 
