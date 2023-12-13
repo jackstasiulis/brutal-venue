@@ -16,7 +16,7 @@
                 max-width: 10vw;
             }
             @include laptopL{
-                min-width: 60vw;
+                min-width: 45vw;
                 // max-width: 10vw;
             }
 
@@ -28,6 +28,9 @@
             font-size: 4rem;
             margin-bottom: 15vh;
             margin-right: 5vw;
+            @include laptopL{
+                margin-right: 20vw;
+            }
 
             &--container{
                 width: 100%;

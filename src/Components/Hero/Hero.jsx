@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Hero.scss'
+import heroImage from '../../Assets/Images/hero.jpg'
 
 
 function Hero () {
@@ -40,7 +41,7 @@ function Hero () {
         <body className='hero'>
             <div className='hero__content'>
                 <article className='hero__image--container'>
-                    <img className='hero__image' src="https://placehold.co/1000x600" alt="DO THIS LATER" />
+                    <img className='hero__image' src={heroImage} alt="DO THIS LATER" />
                 </article>
                 
                 <article id='heroText' className='hero__text--container' onMouseMove={handleMouseMove}>
