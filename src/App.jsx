@@ -4,9 +4,7 @@ import Events from './Components/Events/Events';
 import Footer from './Components/Footer/Footer';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar'
-import ScrollText from './Components/ScrollText/ScrollText';
 import ScrollerText from './Components/ScrollerText/ScrollerText';
-import ScrollingText from './Components/ScrollingText/ScrollingText';
 
 function App() {
   return (
@@ -14,8 +12,6 @@ function App() {
 
       <Navbar />
       <Hero />
-      {/* <ScrollText /> */}
-      {/* <ScrollingText /> */}
       <ScrollerText />
 
       <Events />
