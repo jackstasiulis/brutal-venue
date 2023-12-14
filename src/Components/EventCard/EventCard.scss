@@ -30,12 +30,12 @@
         max-width: 40vw;
 
         width: 200px;
-        height: 320px;
+        min-height: 320px;
 
         margin-right: 10vw;
 
         // GROW ANIMATION
-        transition: ease 0.5s;
+        // transition: ease 0.1s;
         &:hover{
             transform: scale(1.1);
         }
@@ -48,8 +48,9 @@
             }
 
         &--container{
+            outline: 2px solid lime;
             width: 100%;
-            min-height: 350px;
+            min-height: 30rem;
             position: absolute;
             display: flex;
             justify-content: right;
@@ -59,6 +60,12 @@
 
                 @include tablet{
                 justify-content: center;
+                }
+                @include laptopL{
+                    min-height: 35rem;
+                }
+                @include desktop{
+                    min-height: 45rem;
                 }
         }
     }

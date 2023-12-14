@@ -37,8 +37,8 @@
     }
   }
 
-  @mixin desktopXL {
-    @media screen and (min-width: $desktopL-breakpoint) {
+  @mixin desktop {
+    @media screen and (min-width: $desktop-breakpoint) {
       @content;
     }
   }
