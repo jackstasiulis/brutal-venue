@@ -47,8 +47,8 @@ function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) 
                 </motion.div>
 
                 <div className='event-card__text--container'>
-                    <p className='event-card__text'>{title}</p>
-                    <p className='event-card__text'>{eventText1}</p>
+                    <p className='event-card__text title'>{title}</p>
+                    <p className='event-card__text title'>{eventText1}</p>
                     <p className='event-card__text'>{eventText2}</p>
                     <p className='event-card__text'>{eventText3}</p>
                 </div>

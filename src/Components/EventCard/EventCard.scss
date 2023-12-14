@@ -30,8 +30,17 @@
         max-width: 40vw;
 
         width: 200px;
+        height: 320px;
 
         margin-right: 10vw;
+
+        // GROW ANIMATION
+        transition: ease 0.5s;
+        &:hover{
+            transform: scale(1.1);
+        }
+
+
         cursor: pointer;
             @include tablet{
                 min-width: 20vw;
@@ -40,12 +49,12 @@
 
         &--container{
             width: 100%;
+            min-height: 350px;
             position: absolute;
             display: flex;
             justify-content: right;
             align-items: center;
             z-index: 10;
-
 
 
                 @include tablet{
@@ -54,6 +63,15 @@
         }
     }
     &__text{
+        &.title{
+            color: black;
+            background-color: white;
+            // font-weight: 500;
+            // font-size: 1.7rem;
+            mix-blend-mode: normal;
+        }
+        color: white;
+        mix-blend-mode: difference;
         transition: font-size 0.1s, margin 0.1s;
         @include tablet{
             font-size: 1.2rem;
