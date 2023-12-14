@@ -38,12 +38,12 @@ function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) 
         <article className='event-card'>
             <div className='event-card__content'>
                 <div className='event-card__image--container'>
-                    <img className='event-card__image' src="https://placehold.co/500x200" alt="Event background image" />
+                    <img className='event-card__image' src={image} alt="Event background image" />
                 </div>
 
                 {/* HERE is our framer motion.div that takes our mouse position to move the poster */}
                 <motion.div className='event-card__poster--container' onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} style={{rotateX, rotateY, transformStyle: 'preserve-3d',}}>
-                    <img className='event-card__poster' src={"https://placehold.co/200x350"} alt="Event poster" />
+                    <img className='event-card__poster' src={poster} alt="Event poster" />
                 </motion.div>
 
                 <div className='event-card__text--container'>

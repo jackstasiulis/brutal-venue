@@ -12,6 +12,12 @@
     &__image{
         min-width: 70vw;
         max-width: 90vw;
+
+        max-height: 25vw;
+
+        width: 500px;
+        min-height: 200px;
+        object-fit: cover;
         &--container{
             width: 100%;
             display: flex;
@@ -22,6 +28,9 @@
     &__poster{
         min-width: 20vw;
         max-width: 40vw;
+
+        width: 200px;
+
         margin-right: 10vw;
         cursor: pointer;
             @include tablet{

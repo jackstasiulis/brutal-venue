@@ -1,26 +1,25 @@
 [{
     "id":"1",
-    "image":"XXXXX",
-    "poster":"XXXXX",
+    "image":"https://i.imgur.com/gmo2GuT.jpg",
+    "poster":"https://i.imgur.com/Ve3fNoO.jpg",
     "title":"ALBUM RELEASE",
     "eventText1":"tickets online / door",
     "eventText2":"tues. jan. 9. 2024.",
     "eventText3":"doors @ 7"},
 
     {"id":"2",
-    "image":"XXXXX",
-    "poster":"XXXXX",
+    "image":"https://i.imgur.com/Uct57iQ.jpg",
+    "poster":"https://i.imgur.com/S7WTtMa.jpg",
     "title":"FASHION SHOW",
     "eventText1":"tickets online",
     "eventText2":"fri. jan. 12. 2024.",
     "eventText3":"starts  6p.m."},
     
     {"id":"3",
-    "image":"XXXXX",
-    "poster":"XXXXX",
+    "image":"https://i.imgur.com/jlxZyZZ.jpg",
+    "poster":"https://i.imgur.com/L9EFmw4.jpg",
     "title":"ART SALE",
     "eventText1":"ticket not required",
     "eventText2":"sun. jan. 10. 2024.",
     "eventText3":"running 11 to 7"}
-
 ]
