@@ -13,7 +13,6 @@ function App() {
       <Navbar />
       <Hero />
       <ScrollerText />
-
       <Events />
       <About />
       <Footer />

@@ -1,4 +1,5 @@
 import './About.scss'
+import newsStand from '../../Assets/Images/newsStandCrop.png'
 
 function About () {
 
@@ -7,7 +8,7 @@ function About () {
         <section className='about'>
             <span className='about__scroll-point' id='about'></span>
             <div className='about__image--container'>
-                <img className='about__image' src="https://placehold.co/500x500" alt="About us image" />
+                <img className='about__image' src={newsStand} alt="About us image" />
             </div>
 
             <div className='about__tagline--container'>

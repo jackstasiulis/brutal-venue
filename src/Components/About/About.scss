@@ -8,6 +8,8 @@
     align-items: center;
     position: relative;
         &__image{
+            background-color: white;
+            transform: rotate(45deg);
             transition: min-width 0.1s;
             min-width: 80vw;
             max-width: 100vw;
@@ -21,6 +23,8 @@
             }
 
             &--container{
+                max-height: 40rem;
+                outline: solid 2px lime;
 
             }
         }
@@ -28,6 +32,8 @@
             font-size: 4rem;
             margin-bottom: 15vh;
             margin-right: 5vw;
+            // color: white;
+            // mix-blend-mode: difference;
             @include laptopL{
                 margin-right: 20vw;
             }
