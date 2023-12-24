@@ -38,6 +38,7 @@ function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) 
         <article className='event-card'>
             <div className='event-card__content'>
                 <div className='event-card__image--container'>
+                    <div className='event-card__image--overlay'></div>
                     <img className='event-card__image' src={image} alt="Event background image" />
                 </div>
 
