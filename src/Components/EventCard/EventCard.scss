@@ -8,10 +8,11 @@
         width: 100%;
         display: flex;
         align-items: center;
-
         &:hover .event-card__image--overlay{
-            visibility: visible;
+            background-color: rgb(0, 0, 0, 0.5);
         }
+
+
     }
     &__image{
         min-width: 70vw;
@@ -29,8 +30,8 @@
             max-width: 90vw;
             width: 500px;
             min-height: 200px;
-            background-color: rgb(250, 25, 25, 0.4);
-            visibility: hidden;
+            background-color: rgb(250, 25, 25, 0.0);
+            transition: background-color 0.5s;
 
             @include tablet{
                 min-height: 25.1vw;
@@ -41,6 +42,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
         }
     }
     &__poster{
@@ -53,9 +55,9 @@
         margin-right: 10vw;
 
         // GROW ANIMATION
-        // transition: ease 0.1s;
+        transition: ease 0.8s;
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.3);
         }
 
 

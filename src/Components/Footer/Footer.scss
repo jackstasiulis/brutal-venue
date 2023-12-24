@@ -19,6 +19,16 @@
             flex-direction: row;
         }
     }
+    &__image{
+        height: 90px;
+        color: red;
+        @include tablet {
+            height: 100px;
+        }
+        @include laptopL{
+            height: 110px;
+        }
+    }
     &__option{
         margin: 1rem 0 0 0;
         cursor: pointer;

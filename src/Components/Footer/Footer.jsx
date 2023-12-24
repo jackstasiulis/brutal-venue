@@ -1,4 +1,5 @@
 import './Footer.scss'
+import footerImage from '../../Assets/Images/footerImage.png'
 
 function Footer () {
 
@@ -6,7 +7,7 @@ function Footer () {
     return(
         <footer className='footer'>
             <div className='footer__image--container'>
-                <img className='footer__image' src="https://placehold.co/90x90" alt="Footer tag image" />
+                <img className='footer__image' src={footerImage} alt="Footer tag image" />
             </div>
 
             <div className='footer__options'>
