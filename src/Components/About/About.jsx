@@ -12,11 +12,11 @@ function About () {
             </div>
 
             <div className='about__tagline--container'>
-                <h1 className='about__tagline'>hello there</h1>
+                <h1 className='about__tagline'>zoom zoom</h1>
             </div>
 
             <div className='about__text--container'>
-                <p className='about__text'>this is the about section description about us. this is who we are and what we do. read this again to find out more about us.</p>
+                <p className='about__text'>concerts, art sales, album parties, fashion. if its creative, we're into it. send us your ideas and lets make it happen.</p>
             </div>
 
         </section>

@@ -22,7 +22,7 @@ function Footer () {
             </div>
 
             <div className='footer__copy--container'>
-                <p className='footer__copy'>LOREM&copy; 2024</p>
+                <p className='footer__copy'>RACECAR&copy; 2024</p>
             </div>
 
 
