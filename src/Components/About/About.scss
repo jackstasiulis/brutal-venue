@@ -8,8 +8,8 @@
     align-items: center;
     position: relative;
         &__image{
-            background-color: white;
-            transform: rotate(45deg);
+            // background-color: white;
+            // transform: rotate(45deg);
             transition: min-width 0.1s;
             min-width: 80vw;
             max-width: 100vw;
@@ -24,7 +24,7 @@
 
             &--container{
                 max-height: 40rem;
-                outline: solid 2px lime;
+                // outline: solid 2px lime;
 
             }
         }

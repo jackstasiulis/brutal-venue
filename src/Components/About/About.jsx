@@ -1,5 +1,5 @@
 import './About.scss'
-import newsStand from '../../Assets/Images/newsStandCrop.png'
+import newsStand from '../../Assets/Images/newsStand.jpg'
 
 function About () {
 
