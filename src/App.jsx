@@ -14,6 +14,7 @@ function App() {
       <Hero />
       <ScrollerText />
       <Events />
+      <ScrollerText />
       <About />
       <Footer />
 

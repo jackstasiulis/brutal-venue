@@ -17,8 +17,10 @@ $desktop-breakpoint: 1620px;
 
 
 
-$color-primary: #E9E8E3;
-// $color-secondary: #282828;
+// $color-primary: #E9E8E3;
 
-// $color-primary-faded: #717171;
-// $color-secondary-faded: #3a3a3a;
+$light-mode-bg: #E9E8E3;
+$light-mode-text: black;
+
+$dark-mode-bg: black;
+$dark-mode-text: white;
