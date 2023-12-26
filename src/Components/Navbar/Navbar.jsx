@@ -1,7 +1,8 @@
+import DarkLightToggle from '../DarkLightToggle/DarkLightToggle';
 import './Navbar.scss'
 import React, { useState } from 'react';
 
-function Navbar () {
+function Navbar ({isDarkMode, toggleTheme}) {
     // state var for HAMBURGER menu
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,7 +18,11 @@ function Navbar () {
                 </div>
             </a>
 
+            {/* Dark/Light mode toggle switch component */}
+            <DarkLightToggle  isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
+
             <div className={`navbar__menu ${menuOpen ? 'open' : ''}`}>
+
                 <a href="#events">
                     <div className='navbar__item'>EVENTS</div>
                 </a>

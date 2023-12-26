@@ -20,11 +20,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: $light-mode-bg;
-  // background-color: white;
-  
 
+  // background-color: $color-primary;
+  background-color: var(--color-primary);
 }
+// // LIGHT AND DARK MODE
+// .light{
+//   background-color: $light-mode-bg;
+// }
+// .dark{
+//   background-color: $dark-mode-bg;
+// }
+
 
 html{
   scroll-behavior: smooth;
@@ -80,10 +87,3 @@ html{
         font-weight: normal;
         text-rendering: optimizeLegibility;
 }
-
-
-
-
-
-
-

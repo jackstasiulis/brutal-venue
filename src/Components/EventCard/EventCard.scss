@@ -85,7 +85,8 @@
             font-weight: 500;
         }
         color: black;
-        background-color: $light-mode-bg;
+        // background-color: $light-mode-bg;
+        background-color: var(--color-primary);
         transition: font-size 0.1s, margin 0.1s;
         @include tablet{
             font-size: 1.2rem;

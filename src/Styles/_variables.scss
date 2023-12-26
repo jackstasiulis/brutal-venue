@@ -19,8 +19,46 @@ $desktop-breakpoint: 1620px;
 
 // $color-primary: #E9E8E3;
 
-$light-mode-bg: #E9E8E3;
-$light-mode-text: black;
+// $light-mode-bg: #E9E8E3;
+// $light-mode-text: black;
 
-$dark-mode-bg: black;
-$dark-mode-text: white;
+// $dark-mode-bg: black;
+// $dark-mode-text: white;
+
+// .light{
+//     $color-primary: #E9E8E3;
+//     $color-secondary: black;
+// }
+// .dark{
+//     $color-primary: black;
+//     $color-secondary: white;
+// }
+
+// $light-mode-bg: white;
+// $dark-mode-bg: black;
+
+// $color-primary: $light-mode-bg; // Set default mode
+
+// .light-mode {
+//   $color-primary: $light-mode-bg;
+// }
+
+// .dark-mode {
+//   background-color: black;
+//   $color-primary: $dark-mode-bg;
+// }
+
+:root {
+  --light-mode-bg: white;
+  --dark-mode-bg: black;
+  
+  --color-primary: var(--light-mode-bg); // Set default mode
+}
+
+.light-mode {
+  --color-primary: var(--light-mode-bg);
+}
+
+.dark-mode {
+  --color-primary: var(--dark-mode-bg);
+}

@@ -1,13 +1,16 @@
-import './DarkLightToggle.scss'
+import './DarkLightToggle.scss';
 
-function DarkLightToggle () {
-
-
-    return(
-        <div className='dark-light-toggle'>
-
-        </div>
-    )
-}
-
-export default DarkLightToggle;
+const DarkLightToggle = ({ isDarkMode, toggleTheme }) => {
+    const handleChange = () => {
+      toggleTheme();
+    };
+  
+    return (
+      <label className="dark-light-toggle">
+        Toggle Dark Mode
+        <input type="checkbox" onChange={handleChange} checked={isDarkMode} />
+      </label>
+    );
+  };
+  
+  export default DarkLightToggle;

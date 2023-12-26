@@ -1,2 +1,13 @@
 @use '../../Styles/variables' as *;
 @use '../../Styles/mixins' as *;
+
+.dark-light-toggle {
+    margin-top: 20px; // Adjust as needed
+    display: flex;
+    align-items: center;
+  
+    input {
+      margin-left: 10px; // Adjust as needed
+    }
+  }
+  
