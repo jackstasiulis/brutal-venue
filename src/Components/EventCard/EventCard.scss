@@ -84,8 +84,7 @@
         &.title{
             font-weight: 500;
         }
-        color: black;
-        // background-color: $light-mode-bg;
+        color: var(--color-secondary);
         background-color: var(--color-primary);
         transition: font-size 0.1s, margin 0.1s;
         @include tablet{

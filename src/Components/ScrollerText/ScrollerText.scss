@@ -4,8 +4,8 @@
 .scroller-text{
     max-width: none;
     margin: 4rem 0 2rem 0;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid var(--color-secondary);
+    border-bottom: 2px solid var(--color-secondary);
     &__bar{
         display: flex;
         justify-content: space-between;
@@ -15,5 +15,6 @@
         font-size: 1.5rem;
         min-width: fit-content;
         text-wrap: nowrap;
+        color: var(--color-secondary);
     }
 }

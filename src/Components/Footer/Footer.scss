@@ -21,7 +21,6 @@
     }
     &__image{
         height: 90px;
-        color: red;
         @include tablet {
             height: 100px;
         }
@@ -30,6 +29,7 @@
         }
     }
     &__option{
+        color: var(--color-secondary);
         margin: 1rem 0 0 0;
         cursor: pointer;
         transition: text-transform ease 0.2s;
@@ -44,5 +44,6 @@
     &__copy{
         margin: 2rem 0 0 0;
         font-weight: 600;
+        color: var(--color-secondary);
     }
 }

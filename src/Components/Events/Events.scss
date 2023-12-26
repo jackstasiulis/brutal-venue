@@ -2,6 +2,7 @@
 @use '../../Styles/mixins' as *;
 
 .events{
+    color: var(--color-secondary);
     margin-top: 5rem;
     &__title{
         font-size: 4rem;

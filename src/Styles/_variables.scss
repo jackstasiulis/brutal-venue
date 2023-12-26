@@ -25,40 +25,23 @@ $desktop-breakpoint: 1620px;
 // $dark-mode-bg: black;
 // $dark-mode-text: white;
 
-// .light{
-//     $color-primary: #E9E8E3;
-//     $color-secondary: black;
-// }
-// .dark{
-//     $color-primary: black;
-//     $color-secondary: white;
-// }
-
-// $light-mode-bg: white;
-// $dark-mode-bg: black;
-
-// $color-primary: $light-mode-bg; // Set default mode
-
-// .light-mode {
-//   $color-primary: $light-mode-bg;
-// }
-
-// .dark-mode {
-//   background-color: black;
-//   $color-primary: $dark-mode-bg;
-// }
 
 :root {
   --light-mode-bg: white;
+  --light-mode-text: black;
+
   --dark-mode-bg: black;
+  --dark-mode-text: white;
   
   --color-primary: var(--light-mode-bg); // Set default mode
 }
 
 .light-mode {
   --color-primary: var(--light-mode-bg);
+  --color-secondary: var(--light-mode-text);
 }
 
 .dark-mode {
   --color-primary: var(--dark-mode-bg);
+  --color-secondary: var(--dark-mode-text);
 }
