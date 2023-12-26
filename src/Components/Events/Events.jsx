@@ -13,6 +13,7 @@ function Events () {
             </div>
 
             <div>
+                {/* Mapping thru our eventData JSON to produce multiple event cards */}
             {
                 eventData.map( event => {
                     return(

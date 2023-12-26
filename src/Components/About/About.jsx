@@ -3,7 +3,7 @@ import newsStand from '../../Assets/Images/newsStand.jpg'
 
 function About () {
 
-
+    
     return(
         <section className='about'>
             <span className='about__scroll-point' id='about'></span>
@@ -20,7 +20,6 @@ function About () {
                 <li className='about__text'>&#x2022; If its creative, we want it. </li>
                 <li className='about__text'>&#x2022; Send us your ideas and lets make it happen.</li>
             </ul>
-
         </section>
     )
 }

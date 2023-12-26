@@ -41,7 +41,6 @@ function Hero () {
         <body className='hero'>
             <div className='hero__content'>
                 <article className='hero__image--container'>
-                    {/* <div className='hero__image--overlay'></div> */}
                     <img className='hero__image' src={heroImage} alt="DO THIS LATER" />
                 </article>
                 

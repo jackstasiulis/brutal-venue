@@ -7,8 +7,6 @@
     width: 100%;
     z-index: 20;
     height: 4rem;
-
-
     max-width: 100%;
     display: flex;
     justify-content: space-between;
@@ -16,7 +14,6 @@
     background-color: black;
     mix-blend-mode: difference;
     padding: .625rem;
-    // color: #fff;
         &__logo{
             font-size: 1.5rem;
             cursor: pointer;
@@ -31,7 +28,6 @@
             top: 3.125rem;
             left: 0;
             width: 100%;
-            // background-color: #333;
             z-index: 100;
 
             @include tablet{

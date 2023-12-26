@@ -2,7 +2,7 @@ import './Navbar.scss'
 import React, { useState } from 'react';
 
 function Navbar () {
-    // create our state var for hamburger menu
+    // state var for HAMBURGER menu
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -16,7 +16,6 @@ function Navbar () {
                     <h3 className='navbar__logo--text'>racecar</h3>
                 </div>
             </a>
-            
 
             <div className={`navbar__menu ${menuOpen ? 'open' : ''}`}>
                 <a href="#events">
@@ -26,12 +25,10 @@ function Navbar () {
                 <a href="#about">
                     <div className='navbar__item'>ABOUT</div>
                 </a>
-
-
-                {/* <div className='navbar__item'>Item 3</div> */}
             </div>
 
             <div className='hamburger-menu' onClick={toggleMenu}>
+                {/* Hamburger SVG */}
                 &#9776;
             </div>
         </nav>

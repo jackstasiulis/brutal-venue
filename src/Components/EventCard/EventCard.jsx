@@ -12,7 +12,7 @@ function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) 
     const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ['17.5deg','-17.5deg']);
     const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ['-17.5deg','17.5deg']);
 
-
+    // tracking mouse position function to manipulate poster rotation
     const handleMouseMove = (e) => {
         const rect = e.target.getBoundingClientRect();
 
@@ -28,7 +28,7 @@ function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) 
         x.set(xPct);
         y.set(yPct);
     }
-
+    // reset values to 0 to return to original form
     const handleMouseLeave = () => {
         x.set(0);
         y.set(0);
