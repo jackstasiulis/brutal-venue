@@ -14,12 +14,23 @@
     background-color: black;
     mix-blend-mode: difference;
     padding: .625rem;
+        &.open{
+            display: flex;
+            align-items: flex-start;
+            height: 6.5rem;
+            mix-blend-mode: normal;
+            background-color: var(--color-primary);
+        }
+
         &__logo{
             font-size: 1.5rem;
             cursor: pointer;
                 &--text{
                     color: white;
                     mix-blend-mode: difference;
+                    &.open{
+                        margin-top: 0.35rem;
+                    }
                 }
         }
         &__menu{
@@ -40,11 +51,15 @@
             justify-content: space-around;
             align-items: center;
             position: fixed;
+            margin-top: 0.2rem;
+            // height: 6rem;
             }
+
         }
         &__item{
             padding: 10px;
             cursor: pointer;
+            // color: var(--color-secondary);
         
             &:last-child {
                 border-bottom: none;
@@ -57,6 +72,9 @@
     cursor: pointer;
     color: white;
     mix-blend-mode: difference;
+    &.open{
+        margin-top: 0.45rem;
+    }
   
     @include tablet {
         display: none;

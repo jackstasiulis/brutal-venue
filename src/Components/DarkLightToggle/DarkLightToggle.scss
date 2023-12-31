@@ -2,12 +2,19 @@
 @use '../../Styles/mixins' as *;
 
 .dark-light-toggle {
-    margin-top: 20px; // Adjust as needed
-    display: flex;
-    align-items: center;
-  
-    input {
-      margin-left: 10px; // Adjust as needed
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+
+    &__svg{
+    fill: white;
+      height: 1.6rem;
+      width: 1.6rem;
+        cursor: pointer;
+    }
+    &__checkbox{
+      display: none;
     }
   }
+  
   

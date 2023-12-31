@@ -11,17 +11,19 @@ function Navbar ({isDarkMode, toggleTheme}) {
     };
 
     return(
-        <nav className='navbar'>
+        <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
             <a href="#top">
                 <div className='navbar__logo'>
-                    <h3 className='navbar__logo--text'>racecar</h3>
+                    <h3 className={`navbar__logo--text ${menuOpen ? 'open' : ''}`}>racecar</h3>
                 </div>
             </a>
 
             {/* Dark/Light mode toggle switch component */}
-            <DarkLightToggle  isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
+            
 
             <div className={`navbar__menu ${menuOpen ? 'open' : ''}`}>
+
+                <DarkLightToggle  isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
 
                 <a href="#events">
                     <div className='navbar__item'>EVENTS</div>
@@ -32,7 +34,7 @@ function Navbar ({isDarkMode, toggleTheme}) {
                 </a>
             </div>
 
-            <div className='hamburger-menu' onClick={toggleMenu}>
+            <div className={`hamburger-menu ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                 {/* Hamburger SVG */}
                 &#9776;
             </div>

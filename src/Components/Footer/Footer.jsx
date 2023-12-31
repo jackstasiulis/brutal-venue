@@ -1,5 +1,5 @@
 import './Footer.scss'
-import footerImage from '../../Assets/Images/footerImage.svg'
+// import footerImage from '../../Assets/Images/footerImage.svg'
 
 function Footer () {
 
@@ -16,7 +16,7 @@ function Footer () {
 
 <g transform="translate(0.000000,1149.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
-<path fill='var(--color-secondary)' fill='var(--color-secondary)' d="M4974 11371 c-58 -35 -79 -77 -82 -166 -5 -121 3 -135 167 -300 158
+<path fill='var(--color-secondary)' d="M4974 11371 c-58 -35 -79 -77 -82 -166 -5 -121 3 -135 167 -300 158
 -158 215 -196 345 -230 98 -26 137 -67 198 -210 94 -222 125 -357 115 -498 -7
 -89 -20 -137 -62 -237 -51 -119 -34 -263 51 -431 37 -75 67 -104 120 -113 97
 -19 194 83 196 204 1 53 -16 257 -37 455 -17 163 -19 314 -5 439 15 130 21

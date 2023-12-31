@@ -27,11 +27,11 @@ $desktop-breakpoint: 1620px;
 
 
 :root {
-  --light-mode-bg: white;
+  --light-mode-bg: #E9E8E3;
   --light-mode-text: black;
 
-  --dark-mode-bg: black;
-  --dark-mode-text: white;
+  --dark-mode-bg: rgb(7, 24, 12);
+  --dark-mode-text: #E9E8E3;
   
   --color-primary: var(--light-mode-bg); // Set default mode
 }
