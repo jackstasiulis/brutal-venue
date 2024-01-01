@@ -7,26 +7,27 @@ import Footer from './Components/Footer/Footer';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar'
 import ScrollerText from './Components/ScrollerText/ScrollerText';
-import DarkLightToggle from './Components/DarkLightToggle/DarkLightToggle';
 
 function App() {
-  const [isDarkMode, setDarkMode] = useState(false);
+  const initialMode = localStorage.getItem('darkMode') === 'true';
+  const [isDarkMode, setDarkMode] = useState(initialMode);
 
   const toggleTheme = () => {
     setDarkMode(!isDarkMode);
   };
 
+  useEffect(() => {
+    localStorage.setItem('darkMode', isDarkMode);
+  }, [isDarkMode]);
+
 
   return (
     <div className={`App ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
-
-        {/* <ThemeToggle toggleTheme={toggleTheme} /> */}
 
           <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
           <Hero />
           <ScrollerText />
           <Events />
-          {/* <DarkLightToggle  /> */}
           <ScrollerText />
           <About />
           <Footer />
