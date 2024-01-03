@@ -3,6 +3,7 @@
 
 .hero{
     margin-top: 4rem;
+
     &__content{
         display: flex;
     }
@@ -13,9 +14,14 @@
         object-fit: contain;
     }
     &__text{
+        user-select: none;
         font-size: 14vw;
         color: white;
-        mix-blend-mode: difference;
+        mix-blend-mode: difference; 
+        margin-top: 1rem;
+        @include mobileL{
+            margin-top: 0rem;
+        }
 
         &--container{
             position: absolute;

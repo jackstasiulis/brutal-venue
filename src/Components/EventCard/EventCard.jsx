@@ -14,6 +14,7 @@ function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) 
 
     // tracking mouse position function to manipulate poster rotation
     const handleMouseMove = (e) => {
+        if (window.innerWidth >= 768) {
         const rect = e.target.getBoundingClientRect();
 
         const width = rect.width;
@@ -27,6 +28,9 @@ function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) 
         
         x.set(xPct);
         y.set(yPct);
+          } else {
+            
+          }
     }
     // reset values to 0 to return to original form
     const handleMouseLeave = () => {
@@ -35,7 +39,12 @@ function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) 
     }
 
     return(
-        <article className='event-card'>
+        <article className='event-card'
+        // // not sure if this works: i wanna disable framer motion at mobile screensizes
+        // onMouseMove={handleMouseMove}
+        // onMouseLeave={handleMouseLeave}
+        // whileHover={{ scale: window.innerWidth > 767 ? 1.1 : 1 }}
+        >
             <div className='event-card__content'>
                 <div className='event-card__image--container'>
                     <div className='event-card__image--overlay'></div>

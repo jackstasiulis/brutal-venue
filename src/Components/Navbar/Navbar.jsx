@@ -8,38 +8,23 @@ function Navbar ({isDarkMode, toggleTheme}) {
 
     const toggleMenu = () => {
       setMenuOpen(!menuOpen);
-    
-    //   if (window.innerWidth <= 768) {
-    //     setMenuOpen(!menuOpen);
-    //   } else {
-    //     setMenuOpen(false)
-    //     console.log('menuCLOSED')
-    //   }
     };
 
-
+    // for closing the menu when screen exceeds tablet size
     useEffect(() => {
         const handleResize = () => {
           if (window.innerWidth <= 768) {
-            // Only set menu state to true if the screen width is less than or equal to 768 pixels
             setMenuOpen();
           } else {
-            // Set menu state to false if the screen width exceeds 768 pixels
             setMenuOpen(false);
           }
         };
-    
-        // Add event listener for window resize
         window.addEventListener('resize', handleResize);
-    
-        // Initial call to handleResize to set the initial state based on the window width
         handleResize();
-    
-        // Cleanup event listener on component unmount
         return () => {
           window.removeEventListener('resize', handleResize);
         };
-      }, []); // Empty dependency array ensures that the effect
+      }, []);
 
     return(
         <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
