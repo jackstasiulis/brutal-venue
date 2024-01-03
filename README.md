@@ -1,1 +1,1 @@
-this is racecar. a multi purpose artisitic venue website concept built in react.
+this is racecar. a multi purpose artisitic venue concept website built in react.
