@@ -3,14 +3,12 @@
 
 .hero{
     margin-top: 4rem;
-
     &__content{
         display: flex;
     }
     &__image{
         max-width: 100vw;
         width: 1000px;
-
         object-fit: contain;
     }
     &__text{

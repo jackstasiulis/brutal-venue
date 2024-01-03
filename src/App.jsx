@@ -32,7 +32,6 @@ function App() {
           <About />
           <Footer />
 
-
     </div>
   );
 }

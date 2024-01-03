@@ -16,17 +16,17 @@ $desktop-breakpoint: 1620px;
 // NOTE
 // iPhone 11 pro - 375px
 // iPhone 12 pro - 390px
+// both included in mobileM
 
 :root {
   --light-mode-bg: #E9E8E3;
-  --light-mode-text: black;
+  --light-mode-text: rgb(7, 24, 12);
+
 
   --dark-mode-bg: rgb(7, 24, 12);
-  // --dark-mode-text: #E9E8E3;
   --dark-mode-text: #F7E6F3;
-
   
-  --color-primary: var(--light-mode-bg); // Set default mode
+  --color-primary: var(--light-mode-bg); // default mode (light mode)
 }
 
 .light-mode {

@@ -2,7 +2,6 @@ import './About.scss'
 import newsStand from '../../Assets/Images/newsStand.jpg'
 
 function About () {
-
     
     return(
         <section className='about'>

@@ -39,12 +39,7 @@ function EventCard ({title, image, poster, eventText1, eventText2, eventText3}) 
     }
 
     return(
-        <article className='event-card'
-        // // not sure if this works: i wanna disable framer motion at mobile screensizes
-        // onMouseMove={handleMouseMove}
-        // onMouseLeave={handleMouseLeave}
-        // whileHover={{ scale: window.innerWidth > 767 ? 1.1 : 1 }}
-        >
+        <article className='event-card'>
             <div className='event-card__content'>
                 <div className='event-card__image--container'>
                     <div className='event-card__image--overlay'></div>

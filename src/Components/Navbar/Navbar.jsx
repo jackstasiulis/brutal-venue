@@ -38,11 +38,8 @@ function Navbar ({isDarkMode, toggleTheme}) {
                 </div>
             </a>
 
-            {/* Dark/Light mode toggle switch component */}
-            
-
             <div className={`navbar__menu ${menuOpen ? 'open' : ''}`}>
-
+                {/* Dark/Light mode toggle switch component */}
                 <DarkLightToggle  isDarkMode={isDarkMode} toggleTheme={toggleTheme} closeMenu={closeMenu}/>
 
                 <a href="#events" onClick={closeMenu}>

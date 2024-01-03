@@ -7,16 +7,14 @@
   margin-right: 1rem;
 
     &__svg{
-    // fill: white;
       height: 1.6rem;
       width: 1.6rem;
-        cursor: pointer;
-        fill: var(--color-secondary);
-        user-select: none;
-
-        @include tablet{
-            fill: white;
-        }
+      cursor: pointer;
+      fill: var(--color-secondary);
+      user-select: none;
+      @include tablet{
+          fill: white;
+      }
     }
     &__checkbox{
       display: none;

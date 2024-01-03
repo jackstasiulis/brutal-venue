@@ -5,9 +5,8 @@ import heroImage from '../../Assets/Images/hero.jpg'
 
 function Hero () {
 
-    // const [fontIndex, setFontIndex] = useState(0);
+    // FONT CYCLE EFFECT!!!
     const fontOptions = ['Redaction', 'Redaction10', 'Redaction20', 'Redaction35', 'Redaction50', 'Redaction70', 'Redaction100'];
-
     const [fontIndex, setFontIndex] = useState(fontOptions.length - 1);
 
     useEffect(() => {

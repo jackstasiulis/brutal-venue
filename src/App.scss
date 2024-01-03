@@ -5,9 +5,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  // ::selection{
-  //     color: red;
-  // }
+  ::selection{
+      color: hotpink;
+  }
     // max-width: 100%;
     overflow-x: hidden;
 }
@@ -21,16 +21,8 @@
   -moz-osx-font-smoothing: grayscale;
 
 
-  // background-color: $color-primary;
   background-color: var(--color-primary);
 }
-// // LIGHT AND DARK MODE
-// .light{
-//   background-color: $light-mode-bg;
-// }
-// .dark{
-//   background-color: $dark-mode-bg;
-// }
 
 
 html{
