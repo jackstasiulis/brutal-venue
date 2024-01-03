@@ -17,8 +17,8 @@ function About () {
 
             <ul className='about__text--container'>
                 <li className='about__text'>&#x2022; Concerts, art sales, album parties, fashion.</li>
-                <li className='about__text'>&#x2022; If its creative, we want it. </li>
-                <li className='about__text'>&#x2022; Send us your ideas and lets make it happen.</li>
+                <li className='about__text'>&#x2022; If it's creative, we want it. </li>
+                <li className='about__text'>&#x2022; Send us your ideas, lets make it happen.</li>
             </ul>
         </section>
     )

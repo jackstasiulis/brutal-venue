@@ -6,6 +6,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: 4rem;
+    @include tablet{
+        margin-top: 0rem;
+    }
 
     position: relative;
         &__image{
@@ -28,9 +32,11 @@
         &__tagline{
             font-size: 4.5rem;
             margin-bottom: 15vh;
-            margin-left: 20vw;
             color: white;
             mix-blend-mode: difference;
+            @include tablet {
+            margin-left: 20vw;
+            }
             @include laptopL{
                 margin-left: 30vw;
                 font-size: 6.5rem
@@ -48,10 +54,14 @@
         &__text{
             &--container{
                 color: var(--color-secondary);
-                width: 30rem;
                 font-size: 1.1rem;
                 margin: 1rem;
                 font-weight: 700;
+                text-align: right;
+                padding: 1rem;
+                @include tablet {
+                    width: 30rem;
+                }
             }
         }
         &__scroll-point{
