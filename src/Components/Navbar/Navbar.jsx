@@ -10,6 +10,10 @@ function Navbar ({isDarkMode, toggleTheme}) {
       setMenuOpen(!menuOpen);
     };
 
+    const closeMenu = () => {
+      setMenuOpen(false);
+    };
+
     // for closing the menu when screen exceeds tablet size
     useEffect(() => {
         const handleResize = () => {
@@ -39,13 +43,13 @@ function Navbar ({isDarkMode, toggleTheme}) {
 
             <div className={`navbar__menu ${menuOpen ? 'open' : ''}`}>
 
-                <DarkLightToggle  isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
+                <DarkLightToggle  isDarkMode={isDarkMode} toggleTheme={toggleTheme} closeMenu={closeMenu}/>
 
-                <a href="#events">
+                <a href="#events" onClick={closeMenu}>
                     <div className='navbar__item'>EVENTS</div>
                 </a>
 
-                <a href="#about">
+                <a href="#about" onClick={closeMenu}>
                     <div className='navbar__item'>ABOUT</div>
                 </a>
             </div>

@@ -1,13 +1,13 @@
 import './DarkLightToggle.scss';
 
-const DarkLightToggle = ({ isDarkMode, toggleTheme }) => {
+const DarkLightToggle = ({ isDarkMode, toggleTheme, closeMenu }) => {
 
     const handleChange = () => {
       toggleTheme();
     };
   
     return (
-      <label className="dark-light-toggle">
+      <label className="dark-light-toggle" onClick={closeMenu}>
         <svg className='dark-light-toggle__svg' version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
  preserveAspectRatio="xMidYMid meet">
