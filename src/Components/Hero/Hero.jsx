@@ -18,7 +18,7 @@ function Hero () {
             }
             return newIndex;
           });
-        }, 80); // Interval at which our font change loads in with
+        }, 0); // Interval at which our font change loads in with - 0 is disabled
     
         return () => clearInterval(interval);
       }, []);

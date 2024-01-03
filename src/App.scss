@@ -11,6 +11,19 @@
     // max-width: 100%;
     overflow-x: hidden;
 }
+body {
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
 
 .App {
   font-family: Helvetica, Arial, sans-serif;
