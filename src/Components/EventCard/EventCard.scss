@@ -4,6 +4,7 @@
 .event-card{
     margin-bottom: 30vh;
     margin-bottom: 20vh;
+    user-select: none;
     &__content{
         width: 100%;
         display: flex;
